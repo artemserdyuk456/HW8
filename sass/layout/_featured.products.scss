@@ -1,0 +1,12 @@
+.featured-products {
+  background-color: $green-l;
+  min-height: 67px;
+  .container-feat-product {
+    padding: 17px 0 0 62px;
+    h4 {
+      font-family: $bebas-neue;
+      font-size: $fs-large;
+      color: $white;
+    }
+  }
+}

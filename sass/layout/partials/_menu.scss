@@ -1,0 +1,27 @@
+.menu {
+  position: relative;
+  padding: 7px 0 0 21px;
+  ul{
+    font-size: 0;
+
+    li {
+
+      display: inline-block;
+      font-size: $fs-title-middle;
+      border-right: $border-white;
+      &:nth-child(10) {
+        border-right:none;
+      }
+      a {
+
+        text-transform: uppercase;
+        text-decoration:none;
+        text-shadow: $shadow-black-light;
+
+        padding: 0 10px;
+      }
+    }
+
+  }
+
+}

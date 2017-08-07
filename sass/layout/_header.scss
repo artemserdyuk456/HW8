@@ -1,0 +1,54 @@
+header {
+  /*padding-left: 20px;
+  max-width: 1024px;*/
+  background-color: #fff;
+ /* background-position: center;*/
+  min-height: 82px;
+  padding: 21px 21px 21px 0;
+}
+
+/*.container-top-header-block{
+  padding-top: 28px;
+}*/
+.left {
+  /*padding: 22px 0 0 21px;*/
+  color: $blue-title;
+  font-size: $fs-middle-large;
+}
+
+.center {
+  padding-top: 8px;
+  .search {
+    background-image: url("../images/magnifier.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    /*display: block;*/
+    width: 434px;
+    min-height: 31px;
+    border: $border-grey;
+    &:focus {
+      background-image: none;
+    }
+  }
+}
+
+.right {
+  margin-left: 20px;
+  padding-top: 5px;
+  position: relative;
+  /*background-image: url("../images/shape.png");*/
+  width: 50px;
+  height: 40px;
+  h3 {
+    padding-left: 50px;
+    font-size: $fs-large;
+  }
+  .title {
+    @include before-absolute {
+      @include icons(shape);
+      left: 0;
+    }
+    }
+  }
+
+

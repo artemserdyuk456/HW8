@@ -1,0 +1,81 @@
+.content-products {
+  background-color:$white;
+  min-height: 690px;
+  padding-bottom: 40px;
+}
+.di-products {
+  margin-top: 40px;
+}
+.different-products {
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 253px;
+  height: 260px;
+  background-color: #fff;
+  box-shadow: $shadow-black-light-extra;
+  border-bottom: 5px solid $green-l;
+  .icon-product {
+    padding: 10px 0 0 25px;
+    @include before-absolute {
+      @include icons(shoes2);
+    }
+  }
+  .icon-product1 {
+    padding: 10px 0 0 71px;
+
+    @include before-absolute {
+       @include icons(levis);
+    }
+  }
+  .icon-product2 {
+    padding: 10px 0 0 71px;
+    @include before-absolute {
+      @include icons(bray);
+    }
+  }
+  .icon-product-list {
+    padding: 10px 0 0 25px;
+    @include before-absolute {
+      @include icons(purse);
+    }
+  }
+  .icon-product-list1 {
+    padding: 10px 0 0 71px;
+    @include before-absolute {
+      @include icons(bag);
+    }
+  }
+  .icon-product-list2 {
+    padding: 10px 0 0 71px;
+    @include before-absolute {
+      @include icons(shorts);
+    }
+  }
+
+  .brand {
+    text-align: center;
+    padding-top: 145px;
+
+  }
+  .three {
+    margin-left: 60px;
+    /*display: block;*/
+    /*padding-left: 60px;*/
+    padding-top: 10px;
+    .button-content {
+      margin-right: 65px;
+      padding-top: 7px;
+      float: right;
+      display: block;
+      width: 74px;
+      height: 34px;
+      border-radius: 3px;
+      background-clip: padding-box;
+      background-color: $green-l;
+      font-size: $fs-title-little;
+      text-align: center;
+
+    }
+  }
+
+}

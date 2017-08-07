@@ -1,0 +1,24 @@
+.section-about {
+  background-color: $blue-d;
+  min-height: 404px;
+}
+.section-content {
+  margin: 0 auto;
+  padding: 41px 0 0 57px;
+  h4 {
+    font-family: $bebas-neue;
+    font-size: $fs-title-extra;
+    text-transform: uppercase;
+    color: $white;
+  }
+  .list {
+    margin-top: 25px;
+    li {
+      padding: 15px 0 0 0;
+      p {
+        font-size: $fs-base;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,104 @@
+.container-block {
+  position: relative;
+  background-color: $white;
+  min-height: 215px;
+  box-shadow: $shadow-box-black-dark;
+}
+.content-block-first {
+  height: 190px;
+  padding-top: 30px;
+  position: relative;
+  /*&:last-child{
+    border-left: 1px solid $grey-border;
+  }
+  &:first-child{
+    border-right: 1px solid $grey-border;
+  }*/
+  h3 {
+    margin-left: 207px;
+    margin-top: 40px;
+    }
+  .product{
+    margin-top: 15px;
+  @include before-absolute {
+    @include icons(shoes);
+    left: 0;
+    }
+  }
+
+  .product-shorts {
+    margin-left: 30px;
+    margin-top: 15px;
+    @include before-absolute {
+      @include icons(ljp);
+    }
+  }
+}
+  .button-product {
+    margin-left: 207px;
+    display: block;
+    width: 59px;
+    height: 32px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background-color: $green-l;
+    font-size: $fs-title-little;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 20px;
+
+  }
+
+
+.content-block-first-border {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  position: relative;
+  border-left: 1px solid $grey-border;
+  border-right: 1px solid $grey-border;
+  h3 {
+    margin-left: 207px;
+    margin-top: 40px;
+  }
+  .product-tshirt {
+
+    margin-left: 20px;
+    margin-top: 15px;
+    @include before-absolute {
+      @include icons(short);
+      /*left: 0;*/
+    }
+  }
+}
+
+.container-block .owl-nav {
+
+  /*text-indent: -9999px;*/
+  .owl-prev {
+    position: absolute;
+    top: 50px;
+    left: -30px;
+    font-size: 0px;
+    /*float: left;
+    margin-top: -145px;
+    margin-left: -70px;*/
+    background-image: url("images/arrowleft.png");
+    width: 29px;
+    height: 80px;
+  }
+  .owl-next {
+    position: absolute;
+    top: 50px;
+    right: -30px;
+    font-size: 0px;
+    /*float: right;
+    margin-top: -77px;
+    margin-left: 1000px;*/
+    background-image: url("images/arrowright.png");
+    width: 29px;
+    height: 80px;
+  }
+
+
+}
+
